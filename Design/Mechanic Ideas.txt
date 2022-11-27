@@ -1,0 +1,25 @@
+lock block with key
+pits to fall into
+--laser that fires every few seconds -- laser block fires in all directions of empty air and has cool charge anim
+
+floaty zones make you jump higher/float
+
+timer block enables/disables blocks for a short duration after touched
+
+elevator block that can lift you up if youre on top, but crush you if youre underneath when it falls
+
+alien enemy flies up until it hits a wall then turns left and keeps trying
+
+rather than pick up tether just make it so you can throw a new one whenever somehow
+	maybe press space to start aiming, add some way to cancel?
+
+make tether fly in the air for a sec before landing rather than teleporting instantly
+
+oxygen blocks that permanently act as a tether once activated to allow for cool platforming
+
+
+
+
+blocks that spawn little crab minions if you touch or tether to them
+
+spawn particles along the path of the tether when you throw it

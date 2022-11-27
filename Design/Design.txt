@@ -1,0 +1,39 @@
+space tether
+
+some kind of block that moves back and forth that you can either ride or squishes you
+
+something that jumps at you if you get close enough like ch mars jumper
+
+slow/high jump/movement alteration zones, tiles affect area above them for like 5 tiles
+	cool particles to denote area
+	slow grav/slow fall/high jump?
+	particles slowly float you up
+
+key and locked door mechanic?
+
+timed spikes that go out and recede every few seconds - timer based on order of being loaded
+
+little bug type critters that go back and forth and do stuff for you like activate buttons and drop spikes
+	can be destroyed by spikes and such
+
+make buttons stick to whatever surface is nearby if down is not available
+
+invisible blocks that you can still interact with and see by seeing where tether gets blocked
+
+pause menu with resume restart menu
+
+spikes that pop up on button press
+
+spikes that pop up after you have touched and left a block - special block type
+
+fog that covers up everything but blocks, tether lets you see within its range 
+
+finish space tether
+	boss fight and maybe cutscenes
+	boss
+		maybe has tentacles with air at the end that move so you have to stay on them?
+			could have this as reg enemy b4 final boss
+	particles along tether trail?
+
+full pixel art win screen like title screen
+maybe even have an intro comic too
