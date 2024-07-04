@@ -15,6 +15,12 @@ class OuchDoors
 		
 		const self = this
 		
+		// temporary values to prevent left door from drawing on screen before loaded
+		//  I guess we should have done this from the start but we will have to change this if
+		//   we change the size of the sprites
+		this.leftStart = -100
+		this.rightEnd = gfx.scrWidth - 100
+		
 		this.doorSprs[1].img.onload = function()
 		{
 			self.leftStart = -self.doorSprs[0].img.width
