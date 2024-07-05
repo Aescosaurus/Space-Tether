@@ -19,7 +19,11 @@ class OuchDoors
 		//  I guess we should have done this from the start but we will have to change this if
 		//   we change the size of the sprites
 		this.leftStart = -100
+		this.rightStart = gfx.scrWidth
+		this.leftEnd = 0
 		this.rightEnd = gfx.scrWidth - 100
+		self.leftX = this.leftStart
+		self.rightX = this.rightStart
 		
 		this.doorSprs[1].img.onload = function()
 		{
