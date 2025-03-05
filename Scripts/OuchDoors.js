@@ -73,7 +73,7 @@ class OuchDoors
 	
 	Draw( gfx )
 	{
-		// if( this.closing )
+		if( this.opening || this.closing )
 		{
 			gfx.DrawSprite( this.leftX,0,this.doorSprs[0] )
 			gfx.DrawSprite( this.rightX,0,this.doorSprs[1] )
