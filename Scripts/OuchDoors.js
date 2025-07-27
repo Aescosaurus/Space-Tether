@@ -25,15 +25,20 @@ class OuchDoors
 		self.leftX = this.leftStart
 		self.rightX = this.rightStart
 		
-		this.doorSprs[1].img.onload = function()
+		// I think the imgs were loading out of order, so doorSprs[1] loading before doorSprs[0] was causing
+		//  it to get an invalid value - or just setting it to 0 at the start
+		this.doorSprs[0].img.onload = function()
 		{
 			self.leftStart = -self.doorSprs[0].img.width
+			self.leftX = self.leftStart
+		}
+		this.doorSprs[1].img.onload = function()
+		{
 			self.rightStart = gfx.scrWidth
 			
 			self.leftEnd = 0
 			self.rightEnd = gfx.scrWidth - self.doorSprs[1].img.width
 			
-			self.leftX = self.leftStart
 			self.rightX = self.rightStart
 		}
 		
